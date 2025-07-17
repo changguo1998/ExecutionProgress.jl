@@ -2,13 +2,16 @@
 name = "test"
 
 [[steps]]
+name = "date"
 id = 1
-command = "date"
+command = "date && \\\nsleep 1"
 
 [[steps]]
+name = "current working dir"
 id = 2
-command = "pwd"
+command = "pwd && \\\nsleep 1"
 
 [[steps]]
+name = "hello world"
 id = 3
-command = "echo hello"
+command = "echo hello && \\\nsleep 1"
