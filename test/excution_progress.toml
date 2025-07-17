@@ -1,0 +1,14 @@
+[project]
+name = "test"
+
+[[steps]]
+id = 1
+command = "date"
+
+[[steps]]
+id = 2
+command = "pwd"
+
+[[steps]]
+id = 3
+command = "echo hello"
