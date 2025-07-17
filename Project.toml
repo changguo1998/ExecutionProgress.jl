@@ -1,0 +1,10 @@
+name = "ExecutionProgress"
+uuid = "0b71dc92-e261-4042-ae5f-5d43c9f7c085"
+authors = ["Chang Guo <changguo1998@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
+
+[compat]
+TOML = "1.0.3"
